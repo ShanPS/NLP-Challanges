@@ -46,7 +46,7 @@ def model(x_train, y_train, max_sequence_len, vocab_len):
                   optimizer='adam',
                   metrics=['accuracy'])
 
-    model.fit(x_train, y_train, epochs=6, batch_size=128, verbose=1)
+    model.fit(x_train, y_train, epochs=100, batch_size=128, verbose=2)
 
     return model
 
