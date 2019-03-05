@@ -1,3 +1,6 @@
+''' predict the gender from names '''
+
+# imports
 import re
 
 
